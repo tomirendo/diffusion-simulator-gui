@@ -1,0 +1,1 @@
+pip install --upgrade scipy numpy pandas tqdm matplotlib tifffile ipython PyQt5
