@@ -274,8 +274,11 @@ class GUI(QWidget):
             self.save_setup(setup_dictionary, molecules_dictionaries, simulations, filename)
 
             # self.progress_bar.setValue(self.progress_bar.value() + 1)
+            print("Got Here")
             self.finish_progress_bar()
+            print("Got Here")
             self.set_status_label("Done!")
+            print("Got Here")
             self.set_enable_status(True)
 
         t = threading.Thread(target = worker)

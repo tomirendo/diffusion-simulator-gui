@@ -12,21 +12,19 @@ The first two steps are very easy, and the last one will probably will not be ne
 
 ### Part 1 - Installing Python
 
-Install Python3 from the Python.org website. Make sure you download a 'x86-64' (and NOT simply 'x86'). You can simply donwload an installer from here:
+You can download the Python Installer from here:
 
 https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
 
-In the installtion, in the 'Advance Options' menu, make sure to check both "Add Python to environmetn variables" and "Associate files with Python (requires the py launcher)".
+In the installtion, choose custome installation and NOT for all users. In the 'Advance Options' menu, make sure to check both "Add Python to environmetn variables" and "Associate files with Python (requires the py launcher)".
 
 ### Part 2 - Installing Python Packages
 
-Download the Diffusion-Simulator-GUI files. You can download them from this link (On the top right corner, you can download a zip file with everything. Extract the files from the zip file somewhere on your computer. Notice you can see a file named "install.bat"):
+Download the Diffusion-Simulator-GUI files as a zip from the top-right corner of this webpage. Extract the files from the zip file somewhere on your computer. Notice you can see a file named "install.bat". (By *this* webpage, I mean : https://github.com/tomirendo/diffusion-simulator-gui)
 
-https://github.com/tomirendo/diffusion-simulator-gui
+Open a Command Prompt Window by pressing the Start key, typing "cmd.exe". Once you find it, press Enter. A black window with White text should appear.
 
-Open a Command Line Window by opening the Start key, and typing "cmd.exe". Once you find it, press Enter. A black window with White text should appear.
-
- Drag the file "install.bat" into the Command Line Window (after you drop it in the window, the path of 'install.bat' should appear there). Press Enter and wait until everything is done. It might take a while.
+Drag the file "install.bat" into the Command Prompt Window (after you drop it in the window, the path of 'install.bat' should appear there). Press Enter and wait until everything is done. It might take a while.
 
 ### Part 3 - Compiling the GoLang Library
 
@@ -44,6 +42,4 @@ The resulting dll should be kept in the 'Animation' directory.
 
 ### Part 4 - Running the GUI
 
-Double click on the file "gui.py", which you can find in the same directory as all the files downloaded earlier (e.g. "install.bat"). A GUI should appear.
-
-
+Double click on the file "gui.py", which you can find in the same directory as all the files downloaded earlier (e.g. "install.bat"). The GUI should appear.
