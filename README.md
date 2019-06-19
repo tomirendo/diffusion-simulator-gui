@@ -18,6 +18,8 @@ https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
 
 In the installtion, choose custome installation and NOT for all users. In the 'Advance Options' menu, make sure to check both "Add Python to environmetn variables" and "Associate files with Python (requires the py launcher)".
 
+(If you want to install a different python version, make sure you download something that is 3.5+ and 64bit)
+
 ### Part 2 - Installing Python Packages
 
 Download the Diffusion-Simulator-GUI files as a zip from the top-right corner of this webpage. Extract the files from the zip file somewhere on your computer. Notice you can see a file named "install.bat". (By *this* webpage, I mean : https://github.com/tomirendo/diffusion-simulator-gui)
