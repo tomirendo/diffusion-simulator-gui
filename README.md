@@ -22,11 +22,11 @@ In the installtion, choose custome installation and NOT for all users. In the 'A
 
 ### Part 2 - Installing Python Packages
 
-Download the Diffusion-Simulator-GUI files as a zip from the top-right corner of this webpage. Extract the files from the zip file somewhere on your computer. Notice you can see a file named "install.bat". (By *this* webpage, I mean : https://github.com/tomirendo/diffusion-simulator-gui)
+Download the Diffusion-Simulator-GUI files as a zip from the top-right corner of this webpage (clone or download -> download zip). Extract the files from the zip file somewhere on your computer. Notice you can see a file named "install.bat". (By *this* webpage, I mean : https://github.com/tomirendo/diffusion-simulator-gui)
 
-Open a Command Prompt Window by pressing the Start key, typing "cmd.exe". Once you find it, press Enter. A black window with White text should appear.
+Open a Command Prompt Window(cmd.exe) by pressing the Start key and type "cmd.exe" until it shows up. A black window with White text should appear.
 
-Drag the file "install.bat" into the Command Prompt Window (after you drop it in the window, the path of 'install.bat' should appear there). Press Enter and wait until everything is done. It might take a while.
+Drag and drop the file "install.bat" into the Command Prompt Window (after you drop it in the window, the path of 'install.bat' should appear there). Press Enter and wait until everything is done. It might take a while.
 
 ### Part 3 - Compiling the GoLang Library
 
