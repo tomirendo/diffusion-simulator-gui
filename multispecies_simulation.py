@@ -2,7 +2,7 @@ import numpy as np
 from itertools import chain
 import json
 from matplotlib import pyplot as plt
-from scipy import optimize
+# from scipy import optimize
 from simulation import MOLECULES_KEY,maximum_value,frame_filename
 import tifffile
 import json

@@ -21,11 +21,12 @@ SECONDS_IN_MS = 1e-3
 MOLECULES_KEY = 'molecules'
 
 from molecule import *
-from scipy.special import erf
+# from scipy.special import erf
 from numpy import sqrt
 # from matplotlib import pyplot as plt
 import numpy as np
-from tqdm import tqdm_notebook as tqdm
+#from tqdm import tqdm_notebook as tqdm
+tqdm = lambda x: x 
 from IPython import display
 # from matplotlib.animation import FuncAnimation, ArtistAnimation
 # from skimage.external import tifffile
