@@ -8,7 +8,7 @@ In order to use the Diffusion Simulator, you will need to do a few things:
 - Install Python packages
 - Compile the GoLang library (You probably don't need to do it!!)
 
-The first two steps are very easy, and the last one will probably will not be necessary. I am writing the complete instructions here in case you are the poor soul that need to debug something.
+The first two steps are very easy, and the last one will probably will not be necessary. I am writing the complete instructions here in case you are the poor soul that needs to debug something.
 
 ### Part 1 - Installing Python
 
