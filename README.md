@@ -12,21 +12,19 @@ The first two steps are very easy, and the last one will probably will not be ne
 
 ### Part 1 - Installing Python
 
-You can download the Python Installer from here:
+Download the Python Installer from here (DONT install python using self-service):
 
 https://www.python.org/ftp/python/3.7.3/python-3.7.3-amd64.exe
 
 In the installtion, choose custome installation and NOT for all users. In the 'Advance Options' menu, make sure to check both "Add Python to environmetn variables" and "Associate files with Python (requires the py launcher)".
 
-(If you want to install a different python version, make sure you download something that is 3.5+ and 64bit)
+(If you want to install a different python version, make sure you download something that is 3.5+ and 64bit. If you will try to install python using self-service, you won't have premissions to install additional packages, so avoid this if possible.)
 
 ### Part 2 - Installing Python Packages
 
 Download the Diffusion-Simulator-GUI files as a zip from the top-right corner of this webpage (clone or download -> download zip). Extract the files from the zip file somewhere on your computer. Notice you can see a file named "install.bat". (By *this* webpage, I mean : https://github.com/tomirendo/diffusion-simulator-gui)
 
-Open a Command Prompt Window(cmd.exe) by pressing the Start key and type "cmd.exe" until it shows up. A black window with White text should appear.
-
-Drag and drop the file "install.bat" into the Command Prompt Window (after you drop it in the window, the path of 'install.bat' should appear there). Press Enter and wait until everything is done. It might take a while.
+Double click on the file named "install.bat" and wait until the installation is over. This might take 2-3 minutes.
 
 ### Part 3 - Compiling the GoLang Library
 
