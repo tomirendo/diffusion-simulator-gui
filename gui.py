@@ -2,6 +2,7 @@
 ###!/usr/local/bin/python3.5
 import sys, os
 import json
+import time
 import threading
 from PyQt5.QtWidgets import (QWidget, QLabel, QLineEdit, QTableView, QTableWidget,QTableWidgetItem,QProgressBar,
     QTextEdit, QCheckBox, QGridLayout, QApplication, QFileDialog, QPushButton, QMessageBox, QErrorMessage)
@@ -275,10 +276,13 @@ class GUI(QWidget):
 
             # self.progress_bar.setValue(self.progress_bar.value() + 1)
             print("Got Here")
+            time.sleep(1)
             self.finish_progress_bar()
             print("Got Here")
+            time.sleep(1)
             self.set_status_label("Done!")
             print("Got Here")
+            time.sleep(1)
             self.set_enable_status(True)
 
         t = threading.Thread(target = worker)
